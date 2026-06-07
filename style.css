@@ -1,0 +1,55 @@
+body {
+    font-family: Arial, sans-serif;
+    background: #f0f2f5;
+    margin: 0;
+}
+
+.container {
+    max-width: 500px;
+    margin: 20px auto;
+    background: white;
+    padding: 15px;
+    border-radius: 10px;
+}
+
+h1 {
+    text-align: center;
+    color: #1877f2;
+}
+
+#chat {
+    height:400px;
+    overflow-y:auto;
+    border: 1px solid #ddd;
+    padding: 10px;
+}
+.message {
+    padding: 10px;
+    margin: 5px;
+    border-radius: 8px;
+}
+
+.user {
+    background: #1877f2;
+    color: white;
+    text-align: right;
+}
+
+.ia {
+    background: #e4e6eb;
+}
+
+.zone-saisie {
+    display: flex;
+    margin-top: 10px;
+}
+
+input {
+    flex: 1;
+    padding: 10px;
+}
+
+button {
+    padding: 10px;
+    cursor: pointer;
+}
