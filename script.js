@@ -1,4 +1,4 @@
-const API_KEY = "sk-ant-api03-SC8KRYWO5umHUUrQj5wBtB3pm1XH2W_iwJTXAopTnIMr4sUMfqS41-k4f9-us2t7RdDQpJRIpoJoQn2vk1V9w-R0rNMgAA";
+const API_KEY = "https://noe-ia-proxy.yisedole.workers.dev/"
 
 async function envoyerMessage() {
     let input = document.getElementById("question");
@@ -22,7 +22,7 @@ async function envoyerMessage() {
     chat.appendChild(typing);
 
     try {
-            const response = await fetch("https://corsproxy.io/?https://api.anthropic.com/v1/messages", {
+            const response = await fetch("https://noe-ia-proxy.yisedole.workers.dev/", {
             method: "POST",
             headers: {
                 "Content-Type": "application/json",
